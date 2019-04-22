@@ -9,7 +9,7 @@
   },
   "author": "Antay Juskovets",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.6",
     "@types/node": "^11.13.6",
