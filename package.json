@@ -2,20 +2,20 @@
   "name": "kmp",
   "version": "1.0.0",
   "description": "5lr",
-  "main": "index.js",
+  "main": "src/main.ts",
   "scripts": {
+    "start": "ts-node ./src/main.ts",
     "test": "mocha -r ts-node/register src/**/*.spec.ts"
   },
   "author": "Antay Juskovets",
   "license": "ISC",
-  "dependencies": {
-    "typescript": "^3.4.4"
-  },
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.6",
+    "@types/node": "^11.13.6",
     "chai": "^4.2.0",
     "mocha": "^6.1.4",
-    "ts-node": "^8.1.0"
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.4"
   }
 }
