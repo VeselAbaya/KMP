@@ -6,7 +6,7 @@ import {expect} from 'chai';
 import {KMP} from './KMP';
 
 describe('KMP algorithm', () => {
-  it('should find all entries of patter', () => {
+  it('should find all entries of pattern', () => {
     const entriesArray: Array<number> | -1 = KMP('abab', 'ab');
     expect(entriesArray).to.deep.equal([0, 2]);
   });
